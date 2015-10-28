@@ -1,0 +1,35 @@
+{
+  "name": "WhereamI,Arduino?",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "Arduino",
+    "Node.js",
+    "serialport"
+  ],
+  "author": {
+    "name": "Phil Welsch",
+    "email": "pwelsch86@gmail.com ",
+    "url": "users.multimediatechnology.at/~fhs37246"
+  },
+  "homepage": "users.multimediatechnology.at/~fhs37246/mmp1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/in0x/Where-Am-I-Arduino-"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "request":"*",
+    "serialport":"*"
+  },
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+  }
+}
